@@ -16,7 +16,8 @@ html { font-family: 'InterDisplay', sans-serif; }
         font-feature-settings: 'calt';
 }
 body {
-	background: #f5f5f5;
+	background: #f7f2d1;
+	/* #fff; */
 	color: #050505;
 	-webkit-font-smoothing: antialiased;
 }
@@ -49,6 +50,7 @@ h1 {
 }
 .section {
 	margin-bottom: 64px;
+	position: relative;
 }
 .section:last-of-type {
 	border-bottom: 0;
@@ -119,3 +121,10 @@ svg.logo {
 	margin-top: .07em;
 	margin-left: .35em;
 }
+
+.dog-img {
+	max-width: 100%;
+	position: absolute;
+	top: 10%;
+	right: -40%
+}	
